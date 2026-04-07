@@ -3,17 +3,7 @@ Alumno: Tartaglia, Juan Ignacio
 Asignatura: Programación Avanzada
 Proyecto: Sistema de gestión de una librería
 
-
-Estructura del proyecto (NetBeans)
-SistemaLibreria/
-├── src/
-│   ├── Libro.java       ← Clase Libro con atributos, constructores sobrecargados y métodos
-│   ├── Cliente.java     ← Clase Cliente con encapsulamiento y métodos
-│   ├── Libreria.java    ← Clase Libreria que gestiona libros, clientes y ventas
-│   └── Main.java        ← Clase principal: demuestra todos los conceptos
-└── README.md
-
-Descripción de las clases
+Descripción de las clases:
 
 Libro: Representa un libro del catálogo.
 Atributos: titulo, autor, isbn, precio, stock (todos private)
@@ -32,7 +22,6 @@ tieneStock() → boolean
 getTotalLibrosRegistrados() → int (estático)
 
 
-
 Cliente: Representa a un cliente registrado en la librería.
 Atributos: nombre, email, telefono, saldo, comprasRealizadas (todos private)
 Constructores sobrecargados:
@@ -44,7 +33,6 @@ cargarSaldo(double monto) → void
 realizarPago(double monto) → boolean
 puedePagar(double monto) → boolean
 obtenerResumen() → String
-
 
 
 Libreria: Gestiona el catálogo y las operaciones.
